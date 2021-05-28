@@ -1,6 +1,6 @@
 body { 
-    background-image: url("images/pattern4.png");
-    background-repeat: repeat;
+    background-image: url("images/pattern4.png"), url("images/pattern7.png");
+    background-repeat: repeat-x, repeat;
 }
 
 button {
@@ -62,11 +62,4 @@ a {
     color: rgb(255, 253, 119);
     background-color: darkorchid;
     padding-left: 15%;
-}
-
-iframe {
-    border-top: dotted;
-    border-width: 30px;
-    border-color: darkorchid;
-    border-radius: 20%;
 }
