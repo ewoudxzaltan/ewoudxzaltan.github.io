@@ -1,0 +1,29 @@
+button {
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    color: darkorchid;
+    font-size: 14px;
+    border-radius: 45%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.title {
+    font-size: 75px;
+    text-align: center;
+    color: aquamarine;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+    background-color: #ffc1ff;
+    font-size: 20px;
+    width: 220px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a {
+    text-decoration:none;
+}

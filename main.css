@@ -1,0 +1,72 @@
+body { 
+    background-image: url("images/pattern4.png");
+    background-repeat: repeat;
+}
+
+button {
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    color: darkorchid;
+    font-size: 14px;
+    border-radius: 45%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.title {
+    font-size: 75px;
+    text-align: center;
+    color: aquamarine;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+    background-color: #ffc1ff;
+    font-size: 20px;
+    width: 220px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a {
+    text-decoration:none;
+ }
+
+.first {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: aquamarine; 
+    background-color: darkorchid;
+    padding-left: 5%;
+    padding-right: 30%;
+}
+.second {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color:rgb(255, 253, 119); 
+    background-color: deepskyblue;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+.third {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: deepskyblue; 
+    background-color: rgb(255, 253, 119);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fourth {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: right;
+    color: rgb(255, 253, 119);
+    background-color: darkorchid;
+    padding-left: 15%;
+}
+
+#videoo {
+    border-style: dotted;
+    border-width: 30px;
+    border-color: darkorchid;
+    border-radius: 20%;
+}
