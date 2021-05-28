@@ -64,8 +64,8 @@ a {
     padding-left: 15%;
 }
 
-#videoo {
-    border-style: dotted;
+iframe {
+    border-top: dotted;
     border-width: 30px;
     border-color: darkorchid;
     border-radius: 20%;
