@@ -64,3 +64,10 @@ a {
     background-color: darkorchid;
     padding-left: 15%;
 }
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
