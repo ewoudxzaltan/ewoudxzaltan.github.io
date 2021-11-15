@@ -5,9 +5,17 @@
   }
 
 body { 
-    background-image: url("images/ewoud_alpha.png"), linear-gradient(darkorchid, #ffc1ff);
+    background-image: url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
     background-repeat: no-repeat;
+    background-position-y: 5%;
 }
+
+.box1 {
+height: 20px;
+}
+.box2 {
+    height: 50px;
+    }
 
 .sticky {
 position: sticky;
@@ -15,12 +23,11 @@ position: -webkit-sticky;
 top: 0;
 }
 
-
 button {
     float: right;
     background-color: aquamarine;
     color: darkorchid;
-    font-size: 8px;
+    font-size: 12px;
     border-radius: 45%;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -32,12 +39,11 @@ button {
 }
 
 p {
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    bottom: 0%;
     background-color: #ffc1ff;
-    font-size: 200%;
-    width: 220px;
+    font-size: 180%;
+    width: 270px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -79,7 +85,6 @@ a {
     background-color: darkorchid;
     padding-left: 3%;
 }
-
 .fifth {
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: right;
@@ -88,19 +93,19 @@ a {
     background-color: darkorchid;
     padding-right: 3%;
 }
-
 .sixt {
     font-family: "basteleur";
+    text-align: center;
 
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 
-    font-size: 400%;
-    background: -webkit-linear-gradient(darkorchid, #ffbc6f);
+    font-size: 500%;
+    background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 1%;
+    padding-left: 5px;
 }
 
 footer {
