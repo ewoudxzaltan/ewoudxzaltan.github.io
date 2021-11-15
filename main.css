@@ -42,7 +42,7 @@ p {
     top: 0;
     bottom: 0%;
     background-color: #ffc1ff;
-    font-size: 180%;
+    font-size: 200%;
     width: 270px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -58,6 +58,7 @@ a {
     background-color: darkorchid;
     padding-left: 5%;
     padding-right: 30%;
+    font-size: 100%;
 }
 .second {
     position: -webkit-sticky;
@@ -69,6 +70,7 @@ a {
     background-color: deepskyblue;
     padding-left: 10%;
     padding-right: 2%;
+    font-size: 100%;
 }
 .third {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -77,6 +79,7 @@ a {
     background-color: rgb(255, 253, 119);
     padding-left: 5%;
     padding-right: 5%;
+    font-size: 100%;
 }
 .fourth {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -84,29 +87,26 @@ a {
     color: rgb(255, 253, 119);
     background-color: darkorchid;
     padding-left: 3%;
+    font-size: 100%;
 }
 .fifth {
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: right;
-    font-size: 8px;
     color: rgb(207, 255, 119);
     background-color: darkorchid;
     padding-right: 3%;
+    font-size: 100%;
 }
 .sixt {
     font-family: "basteleur";
-    text-align: center;
 
-    transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
+    width: fit-content;
+    height: fit-content;
 
-    width: auto;
-
-    font-size: 450%;
+    font-size: 80px;
     background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 5px;
 }
 
 footer {
