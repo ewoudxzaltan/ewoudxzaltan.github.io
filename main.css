@@ -96,12 +96,11 @@ a {
     position: sticky;
     top: 0;
 
-    font-size: 500%;
+    font-size: 400%;
     background: -webkit-linear-gradient(darkorchid, #ffbc6f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 2%;
-    padding-right: 0;
+    padding-left: 1%;
 }
 
 footer {
