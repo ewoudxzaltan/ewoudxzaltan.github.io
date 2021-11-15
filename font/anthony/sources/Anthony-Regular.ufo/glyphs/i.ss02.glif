@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.ss02" format="2">
+	<advance width="183"/>
+	<anchor x="91" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="70" y="0" type="line"/>
+			<point x="70" y="400" type="line"/>
+			<point x="113" y="400" type="line"/>
+			<point x="113" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="70" y="547" type="line"/>
+			<point x="70" y="716" type="line"/>
+			<point x="113" y="716" type="line"/>
+			<point x="113" y="547" type="line"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="P.ss02" format="2">
+	<advance width="548"/>
+	<outline>
+		<contour>
+			<point x="147" y="385" type="line"/>
+			<point x="109" y="404" type="line"/>
+			<point x="274" y="733" type="line"/>
+			<point x="313" y="714" type="line"/>
+		</contour>
+		<contour>
+			<point x="490" y="385" type="line"/>
+			<point x="314" y="714" type="line"/>
+			<point x="351" y="734" type="line"/>
+			<point x="528" y="405" type="line"/>
+		</contour>
+		<contour>
+			<point x="489" y="341" type="line"/>
+			<point x="148" y="341" type="line"/>
+			<point x="148" y="384" type="line"/>
+			<point x="489" y="384" type="line"/>
+		</contour>
+		<contour>
+			<point x="108" y="0" type="line"/>
+			<point x="65" y="0" type="line"/>
+			<point x="65" y="404" type="line"/>
+			<point x="108" y="404" type="line"/>
+		</contour>
+	</outline>
+</glyph>

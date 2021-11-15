@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="q.ss01" format="2">
+	<advance width="461"/>
+	<outline>
+		<contour>
+			<point x="347" y="557" type="line"/>
+			<point x="79" y="557" type="line"/>
+			<point x="79" y="600" type="line"/>
+			<point x="347" y="600" type="line"/>
+		</contour>
+		<contour>
+			<point x="78" y="304" type="line"/>
+			<point x="35" y="304" type="line"/>
+			<point x="35" y="556" type="line"/>
+			<point x="78" y="556" type="line"/>
+		</contour>
+		<contour>
+			<point x="338" y="260" type="line"/>
+			<point x="79" y="260" type="line"/>
+			<point x="79" y="303" type="line"/>
+			<point x="338" y="303" type="line"/>
+		</contour>
+		<contour>
+			<point x="391" y="0" type="line"/>
+			<point x="348" y="0" type="line"/>
+			<point x="348" y="556" type="line"/>
+			<point x="391" y="556" type="line"/>
+		</contour>
+	</outline>
+</glyph>

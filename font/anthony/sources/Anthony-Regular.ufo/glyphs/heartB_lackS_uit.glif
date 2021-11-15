@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heartBlackSuit" format="2">
+	<advance width="953"/>
+	<unicode hex="2665"/>
+	<outline>
+		<contour>
+			<point x="510" y="-12" type="line"/>
+			<point x="479" y="17" type="line"/>
+			<point x="902" y="465" type="line"/>
+			<point x="933" y="436" type="line"/>
+		</contour>
+		<contour>
+			<point x="443" y="-12" type="line"/>
+			<point x="21" y="436" type="line"/>
+			<point x="52" y="465" type="line"/>
+			<point x="474" y="17" type="line"/>
+		</contour>
+		<contour>
+			<point x="510" y="471" type="line"/>
+			<point x="479" y="500" type="line"/>
+			<point x="672" y="708" type="line"/>
+			<point x="703" y="678" type="line"/>
+		</contour>
+		<contour>
+			<point x="901" y="467" type="line"/>
+			<point x="705" y="679" type="line"/>
+			<point x="737" y="708" type="line"/>
+			<point x="932" y="496" type="line"/>
+		</contour>
+		<contour>
+			<point x="52" y="467" type="line"/>
+			<point x="20" y="496" type="line"/>
+			<point x="215" y="708" type="line"/>
+			<point x="247" y="679" type="line"/>
+		</contour>
+		<contour>
+			<point x="443" y="471" type="line"/>
+			<point x="249" y="678" type="line"/>
+			<point x="280" y="708" type="line"/>
+			<point x="474" y="500" type="line"/>
+		</contour>
+	</outline>
+</glyph>

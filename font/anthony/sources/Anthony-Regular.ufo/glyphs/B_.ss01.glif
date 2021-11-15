@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B.ss01" format="2">
+	<advance width="480"/>
+	<outline>
+		<contour>
+			<point x="139" y="53" type="line"/>
+			<point x="97" y="53" type="line"/>
+			<point x="97" y="607" type="line"/>
+			<point x="139" y="607" type="line"/>
+		</contour>
+		<contour>
+			<point x="399" y="0" type="line"/>
+			<point x="40" y="0" type="line"/>
+			<point x="40" y="43" type="line"/>
+			<point x="399" y="43" type="line"/>
+		</contour>
+		<contour>
+			<point x="440" y="0" type="line"/>
+			<point x="140" y="325" type="line"/>
+			<point x="171" y="354" type="line"/>
+			<point x="471" y="29" type="line"/>
+		</contour>
+		<contour>
+			<point x="202" y="322" type="line"/>
+			<point x="188" y="362" type="line"/>
+			<point x="368" y="426" type="line"/>
+			<point x="382" y="385" type="line"/>
+		</contour>
+		<contour>
+			<point x="349" y="421" type="line"/>
+			<point x="53" y="684" type="line"/>
+			<point x="82" y="716" type="line"/>
+			<point x="377" y="453" type="line"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m.ss02" format="2">
+	<advance width="734"/>
+	<outline>
+		<contour>
+			<point x="91" y="0" type="line"/>
+			<point x="50" y="15" type="line"/>
+			<point x="191" y="417" type="line"/>
+			<point x="232" y="403" type="line"/>
+		</contour>
+		<contour>
+			<point x="200" y="201" type="line"/>
+			<point x="174" y="235" type="line"/>
+			<point x="411" y="417" type="line"/>
+			<point x="437" y="383" type="line"/>
+		</contour>
+		<contour>
+			<point x="325" y="0" type="line"/>
+			<point x="284" y="15" type="line"/>
+			<point x="407" y="359" type="line"/>
+			<point x="447" y="344" type="line"/>
+		</contour>
+		<contour>
+			<point x="89" y="323" type="line"/>
+			<point x="65" y="358" type="line"/>
+			<point x="153" y="417" type="line"/>
+			<point x="177" y="382" type="line"/>
+		</contour>
+		<contour>
+			<point x="436" y="201" type="line"/>
+			<point x="410" y="235" type="line"/>
+			<point x="647" y="417" type="line"/>
+			<point x="673" y="383" type="line"/>
+		</contour>
+		<contour>
+			<point x="562" y="0" type="line"/>
+			<point x="521" y="15" type="line"/>
+			<point x="644" y="359" type="line"/>
+			<point x="684" y="344" type="line"/>
+		</contour>
+		<contour>
+			<point x="600" y="0" type="line"/>
+			<point x="576" y="35" type="line"/>
+			<point x="657" y="92" type="line"/>
+			<point x="681" y="57" type="line"/>
+		</contour>
+	</outline>
+</glyph>

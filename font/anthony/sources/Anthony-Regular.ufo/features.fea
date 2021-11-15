@@ -1,0 +1,399 @@
+# automatic
+@AllLetters = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash OE P Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ycircumflex Ydieresis Ygrave Z A.ss01 B.ss01 C.ss01 D.ss01 E.ss01 F.ss01 G.ss01 H.ss01 I.ss01 J.ss01 K.ss01 L.ss01 M.ss01 O.ss01 P.ss01 Q.ss01 R.ss01 S.ss01 T.ss01 A.ss02 B.ss02 C.ss02 D.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 K.ss02 L.ss02 M.ss02 O.ss02 P.ss02 Q.ss02 R.ss02 S.ss02 T.ss02 a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j k l m n ntilde o oacute ocircumflex odieresis ograve oslash oe p q r s germandbls t u uacute ucircumflex udieresis ugrave v w x y yacute ycircumflex ydieresis ygrave z a.ss01 b.ss01 d.ss01 g.ss01 i.ss01 j.ss01 k.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 t.ss01 y.ss01 z.ss01 a.ss02 b.ss02 d.ss02 g.ss02 i.ss02 j.ss02 k.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 t.ss02 y.ss02 z.ss02 ];
+
+# automatic
+@All = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash OE P Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ycircumflex Ydieresis Ygrave Z A.ss01 B.ss01 C.ss01 D.ss01 E.ss01 F.ss01 G.ss01 H.ss01 I.ss01 J.ss01 K.ss01 L.ss01 M.ss01 O.ss01 P.ss01 Q.ss01 R.ss01 S.ss01 T.ss01 A.ss02 B.ss02 C.ss02 D.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 K.ss02 L.ss02 M.ss02 O.ss02 P.ss02 Q.ss02 R.ss02 S.ss02 T.ss02 a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j k l m n ntilde o oacute ocircumflex odieresis ograve oslash oe p q r s germandbls t u uacute ucircumflex udieresis ugrave v w x y yacute ycircumflex ydieresis ygrave z a.ss01 b.ss01 d.ss01 g.ss01 i.ss01 j.ss01 k.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 t.ss01 y.ss01 z.ss01 a.ss02 b.ss02 d.ss02 g.ss02 i.ss02 j.ss02 k.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 t.ss02 y.ss02 z.ss02 zero one two three four five six seven eight nine period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed quotedblrightreversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space cent dollar euro sterling won yen plus minus multiply divide equal greater less plusminus asciitilde asciicircum integral summation radical percent upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow lozenge upWhiteTriangle heartBlackSuit at ampersand paragraph section degree bar brokenbar dagger daggerdbl dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb slashlongcomb dieresis grave acute circumflex ring tilde cedilla VTF ];
+
+@AllBasic = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash OE P Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ycircumflex Ydieresis Ygrave Z a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j k l m n ntilde o oacute ocircumflex odieresis ograve oslash oe p q r s germandbls t u uacute ucircumflex udieresis ugrave v w x y yacute ycircumflex ydieresis ygrave z zero one two three four five six seven eight nine period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed quotedblrightreversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space cent dollar euro sterling won yen plus minus multiply divide equal greater less plusminus asciitilde asciicircum integral summation radical percent upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow lozenge upWhiteTriangle heartBlackSuit at ampersand paragraph section degree bar brokenbar dagger daggerdbl dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb slashlongcomb dieresis grave acute circumflex ring tilde cedilla VTF ];
+
+# automatic
+@Uppercase = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash OE P Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ycircumflex Ydieresis Ygrave Z A.ss01 B.ss01 C.ss01 D.ss01 E.ss01 F.ss01 G.ss01 H.ss01 I.ss01 J.ss01 K.ss01 L.ss01 M.ss01 O.ss01 P.ss01 Q.ss01 R.ss01 S.ss01 T.ss01 A.ss02 B.ss02 C.ss02 D.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 K.ss02 L.ss02 M.ss02 O.ss02 P.ss02 Q.ss02 R.ss02 S.ss02 T.ss02 ];
+
+@DFLT = [ A B C D E F G H I J K L M O P Q R S T a b d g i j k m n o p q r t y z ];
+
+@ETCC = [ Aacute Acircumflex Adieresis Agrave Aring Atilde AE Ccedilla Eacute Ecircumflex Edieresis Egrave Iacute Icircumflex Idieresis Igrave N Ntilde Oacute Ocircumflex Odieresis Ograve Oslash OE U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ycircumflex Ydieresis Ygrave Z aacute acircumflex adieresis agrave aring atilde ae c ccedilla e eacute ecircumflex edieresis egrave f h idotless iacute icircumflex idieresis igrave l ntilde oacute ocircumflex odieresis ograve oslash oe s germandbls u uacute ucircumflex udieresis ugrave v w x yacute ycircumflex ydieresis ygrave a.ss01 b.ss01 d.ss01 g.ss01 i.ss01 j.ss01 k.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 t.ss01 y.ss01 z.ss01 a.ss02 b.ss02 d.ss02 g.ss02 i.ss02 j.ss02 k.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 t.ss02 y.ss02 z.ss02 zero one two three four five six seven eight nine period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed quotedblrightreversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space .notdef cent dollar euro sterling won yen plus minus multiply divide equal greater less plusminus asciitilde asciicircum integral summation radical percent upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow lozenge upWhiteTriangle heartBlackSuit at ampersand paragraph section degree bar brokenbar dagger daggerdbl dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb slashlongcomb dieresis grave acute circumflex ring tilde cedilla VTF ];
+
+@ALT1 = [ A.ss01 B.ss01 C.ss01 D.ss01 E.ss01 F.ss01 G.ss01 H.ss01 I.ss01 J.ss01 K.ss01 L.ss01 M.ss01 O.ss01 P.ss01 Q.ss01 R.ss01 S.ss01 T.ss01 a.ss01 b.ss01 d.ss01 g.ss01 i.ss01 j.ss01 k.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 t.ss01 y.ss01 z.ss01 ];
+
+@ALT2 = [ A.ss02 B.ss02 C.ss02 D.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 K.ss02 L.ss02 M.ss02 O.ss02 P.ss02 Q.ss02 R.ss02 S.ss02 T.ss02 a.ss02 b.ss02 d.ss02 g.ss02 i.ss02 j.ss02 k.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 t.ss02 y.ss02 z.ss02 ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+feature aalt {
+# automatic
+feature calt;
+feature salt;
+feature ss01;
+feature ss02;
+} aalt;
+
+feature calt {
+sub @DFLT @DFLT' by @ALT1;
+sub @ALT1 @DFLT' by @ALT2;
+sub @ALT1 @ALT1' by @ALT2;
+sub @DFLT @ETCC @DFLT' by @ALT1;
+sub @ALT1 @ETCC @DFLT' by @ALT2;
+sub @ALT1 @ETCC @ALT1' by @ALT2;
+sub @ALT2 @ETCC @ALT2' by @DFLT;
+
+lookup RandomDuplicate2 {
+        sub A @AllBasic A' by A.ss02;
+        sub B @AllBasic B' by B.ss02;
+        sub C @AllBasic C' by C.ss02;
+        sub D @AllBasic D' by D.ss02;
+        sub E @AllBasic E' by E.ss02;
+        sub F @AllBasic F' by F.ss02;
+        sub G @AllBasic G' by G.ss02;
+        sub H @AllBasic H' by H.ss02;
+        sub I @AllBasic I' by I.ss02;
+        sub J @AllBasic J' by J.ss02;
+        sub K @AllBasic K' by K.ss02;
+        sub L @AllBasic L' by L.ss02;
+        sub M @AllBasic M' by M.ss02;
+        sub O @AllBasic O' by O.ss02;
+        sub P @AllBasic P' by P.ss02;
+        sub Q @AllBasic Q' by Q.ss02;
+        sub R @AllBasic R' by R.ss02;
+        sub S @AllBasic S' by S.ss02;
+        sub T @AllBasic T' by T.ss02;
+        
+        sub a @AllBasic a' by a.ss02;
+        sub b @AllBasic b' by b.ss02;
+        sub d @AllBasic d' by d.ss02;
+        sub g @AllBasic g' by g.ss02;
+        sub i @AllBasic i' by i.ss02;
+        sub j @AllBasic j' by j.ss02;
+        sub k @AllBasic k' by k.ss02;
+        sub m @AllBasic m' by m.ss02;
+        sub n @AllBasic n' by n.ss02;
+        sub o @AllBasic o' by o.ss02;
+        sub p @AllBasic p' by p.ss02;
+        sub q @AllBasic q' by q.ss02;
+        sub r @AllBasic r' by r.ss02;
+        sub t @AllBasic t' by t.ss02;
+        sub y @AllBasic y' by y.ss02;
+        sub z @AllBasic z' by z.ss02;
+
+        sub A.ss01 @AllBasic A.ss01' by A;
+        sub B.ss01 @AllBasic B.ss01' by B;
+        sub C.ss01 @AllBasic C.ss01' by C;
+        sub D.ss01 @AllBasic D.ss01' by D;
+        sub E.ss01 @AllBasic E.ss01' by E;
+        sub F.ss01 @AllBasic F.ss01' by F;
+        sub G.ss01 @AllBasic G.ss01' by G;
+        sub H.ss01 @AllBasic H.ss01' by H;
+        sub I.ss01 @AllBasic I.ss01' by I;
+        sub J.ss01 @AllBasic J.ss01' by J;
+        sub K.ss01 @AllBasic K.ss01' by K;
+        sub L.ss01 @AllBasic L.ss01' by L;
+        sub M.ss01 @AllBasic M.ss01' by M;
+        sub O.ss01 @AllBasic O.ss01' by O;
+        sub P.ss01 @AllBasic P.ss01' by P;
+        sub Q.ss01 @AllBasic Q.ss01' by Q;
+        sub R.ss01 @AllBasic R.ss01' by R;
+        sub S.ss01 @AllBasic S.ss01' by S;
+        sub T.ss01 @AllBasic T.ss01' by T;
+      
+        sub a.ss01 @AllBasic a.ss01' by a;
+        sub b.ss01 @AllBasic b.ss01' by b;
+        sub d.ss01 @AllBasic d.ss01' by d;
+        sub g.ss01 @AllBasic g.ss01' by g;
+        sub i.ss01 @AllBasic i.ss01' by i;
+        sub j.ss01 @AllBasic j.ss01' by j;
+        sub k.ss01 @AllBasic k.ss01' by k;
+        sub m.ss01 @AllBasic m.ss01' by m;
+        sub n.ss01 @AllBasic n.ss01' by n;
+        sub o.ss01 @AllBasic o.ss01' by o;
+        sub p.ss01 @AllBasic p.ss01' by p;
+        sub q.ss01 @AllBasic q.ss01' by q;
+        sub r.ss01 @AllBasic r.ss01' by r;
+        sub t.ss01 @AllBasic t.ss01' by t;
+        sub y.ss01 @AllBasic y.ss01' by y;
+        sub z.ss01 @AllBasic z.ss01' by z;
+        
+        sub A.ss02 @AllBasic A.ss02' by A.ss01;
+        sub B.ss02 @AllBasic B.ss02' by B.ss01;
+        sub C.ss02 @AllBasic C.ss02' by C.ss01;
+        sub D.ss02 @AllBasic D.ss02' by D.ss01;
+        sub E.ss02 @AllBasic E.ss02' by E.ss01;
+        sub F.ss02 @AllBasic F.ss02' by F.ss01;
+        sub G.ss02 @AllBasic G.ss02' by G.ss01;
+        sub H.ss02 @AllBasic H.ss02' by H.ss01;
+        sub I.ss02 @AllBasic I.ss02' by I.ss01;
+        sub J.ss02 @AllBasic J.ss02' by J.ss01;
+        sub K.ss02 @AllBasic K.ss02' by K.ss01;
+        sub L.ss02 @AllBasic L.ss02' by L.ss01;
+        sub M.ss02 @AllBasic M.ss02' by M.ss01;
+        sub O.ss02 @AllBasic O.ss02' by O.ss01;
+        sub P.ss02 @AllBasic P.ss02' by P.ss01;
+        sub Q.ss02 @AllBasic Q.ss02' by Q.ss01;
+        sub R.ss02 @AllBasic R.ss02' by R.ss01;
+        sub S.ss02 @AllBasic S.ss02' by S.ss01;
+        sub T.ss02 @AllBasic T.ss02' by T.ss01;
+        
+        sub a.ss02 @AllBasic a.ss02' by a.ss01;
+        sub b.ss02 @AllBasic b.ss02' by b.ss01;
+        sub d.ss02 @AllBasic d.ss02' by d.ss01;
+        sub g.ss02 @AllBasic g.ss02' by g.ss01;
+        sub i.ss02 @AllBasic i.ss02' by i.ss01;
+        sub j.ss02 @AllBasic j.ss02' by j.ss01;
+        sub k.ss02 @AllBasic k.ss02' by k.ss01;
+        sub m.ss02 @AllBasic m.ss02' by m.ss01;
+        sub n.ss02 @AllBasic n.ss02' by n.ss01;
+        sub o.ss02 @AllBasic o.ss02' by o.ss01;
+        sub p.ss02 @AllBasic p.ss02' by p.ss01;
+        sub q.ss02 @AllBasic q.ss02' by q.ss01;
+        sub r.ss02 @AllBasic r.ss02' by r.ss01;
+        sub t.ss02 @AllBasic t.ss02' by t.ss01;
+        sub y.ss02 @AllBasic y.ss02' by y.ss01;
+        sub z.ss02 @AllBasic z.ss02' by z.ss01;
+} RandomDuplicate2;
+
+lookup RandomDuplicate1 {
+        sub A A' by A.ss02;
+        sub B B' by B.ss02;
+        sub C C' by C.ss02;
+        sub D D' by D.ss02;
+        sub E E' by E.ss02;
+        sub F F' by F.ss02;
+        sub G G' by G.ss02;
+        sub H H' by H.ss02;
+        sub I I' by I.ss02;
+        sub J J' by J.ss02;
+        sub K K' by K.ss02;
+        sub L L' by L.ss02;
+        sub M M' by M.ss02;
+        sub O O' by O.ss02;
+        sub P P' by P.ss02;
+        sub Q Q' by Q.ss02;
+        sub R R' by R.ss02;
+        sub S S' by S.ss02;
+        sub T T' by T.ss02;
+        
+        sub a a' by a.ss02;
+        sub b b' by b.ss02;
+        sub d d' by d.ss02;
+        sub g g' by g.ss02;
+        sub i i' by i.ss02;
+        sub j j' by j.ss02;
+        sub k k' by k.ss02;
+        sub m m' by m.ss02;
+        sub n n' by n.ss02;
+        sub o o' by o.ss02;
+        sub p p' by p.ss02;
+        sub q q' by q.ss02;
+        sub r r' by r.ss02;
+        sub t t' by t.ss02;
+        sub y y' by y.ss02;
+        sub z z' by z.ss02;
+
+        sub A.ss01 A.ss01' by A;
+        sub B.ss01 B.ss01' by B;
+        sub C.ss01 C.ss01' by C;
+        sub D.ss01 D.ss01' by D;
+        sub E.ss01 E.ss01' by E;
+        sub F.ss01 F.ss01' by F;
+        sub G.ss01 G.ss01' by G;
+        sub H.ss01 H.ss01' by H;
+        sub I.ss01 I.ss01' by I;
+        sub J.ss01 J.ss01' by J;
+        sub K.ss01 K.ss01' by K;
+        sub L.ss01 L.ss01' by L;
+        sub M.ss01 M.ss01' by M;
+        sub O.ss01 O.ss01' by O;
+        sub P.ss01 P.ss01' by P;
+        sub Q.ss01 Q.ss01' by Q;
+        sub R.ss01 R.ss01' by R;
+        sub S.ss01 S.ss01' by S;
+        sub T.ss01 T.ss01' by T;
+        
+        sub a.ss01 a.ss01' by a;
+        sub b.ss01 b.ss01' by b;
+        sub d.ss01 d.ss01' by d;
+        sub g.ss01 g.ss01' by g;
+        sub i.ss01 i.ss01' by i;
+        sub j.ss01 j.ss01' by j;
+        sub k.ss01 k.ss01' by k;
+        sub m.ss01 m.ss01' by m;
+        sub n.ss01 n.ss01' by n;
+        sub o.ss01 o.ss01' by o;
+        sub p.ss01 p.ss01' by p;
+        sub q.ss01 q.ss01' by q;
+        sub r.ss01 r.ss01' by r;
+        sub t.ss01 t.ss01' by t;
+        sub y.ss01 y.ss01' by y;
+        sub z.ss01 z.ss01' by z;
+
+        sub A.ss02 A.ss02' by A.ss01;
+        sub B.ss02 B.ss02' by B.ss01;
+        sub C.ss02 C.ss02' by C.ss01;
+        sub D.ss02 D.ss02' by D.ss01;
+        sub E.ss02 E.ss02' by E.ss01;
+        sub F.ss02 F.ss02' by F.ss01;
+        sub G.ss02 G.ss02' by G.ss01;
+        sub H.ss02 H.ss02' by H.ss01;
+        sub I.ss02 I.ss02' by I.ss01;
+        sub J.ss02 J.ss02' by J.ss01;
+        sub K.ss02 K.ss02' by K.ss01;
+        sub L.ss02 L.ss02' by L.ss01;
+        sub M.ss02 M.ss02' by M.ss01;
+        sub O.ss02 O.ss02' by O.ss01;
+        sub P.ss02 P.ss02' by P.ss01;
+        sub Q.ss02 Q.ss02' by Q.ss01;
+        sub R.ss02 R.ss02' by R.ss01;
+        sub S.ss02 S.ss02' by S.ss01;
+        sub T.ss02 T.ss02' by T.ss01;
+      
+        sub a.ss02 a.ss02' by a.ss01;
+        sub b.ss02 b.ss02' by b.ss01;
+        sub d.ss02 d.ss02' by d.ss01;
+        sub g.ss02 g.ss02' by g.ss01;
+        sub i.ss02 i.ss02' by i.ss01;
+        sub j.ss02 j.ss02' by j.ss01;
+        sub k.ss02 k.ss02' by k.ss01;
+        sub m.ss02 m.ss02' by m.ss01;
+        sub n.ss02 n.ss02' by n.ss01;
+        sub o.ss02 o.ss02' by o.ss01;
+        sub p.ss02 p.ss02' by p.ss01;
+        sub q.ss02 q.ss02' by q.ss01;
+        sub r.ss02 r.ss02' by r.ss01;
+        sub t.ss02 t.ss02' by t.ss01;
+        sub y.ss02 y.ss02' by y.ss01;
+        sub z.ss02 z.ss02' by z.ss01;
+} RandomDuplicate1;
+} calt;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb gravecomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb slashlongcomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+} ccmp_Other_1;
+} ccmp;
+
+feature cpsp {
+# automatic
+pos @Uppercase <5 0 10 0>;
+} cpsp;
+
+feature salt {
+# automatic
+sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub Q by Q.ss01;
+sub R by R.ss01;
+sub S by S.ss01;
+sub T by T.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub d by d.ss01;
+sub g by g.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub q by q.ss01;
+sub r by r.ss01;
+sub t by t.ss01;
+sub y by y.ss01;
+sub z by z.ss01;
+} salt;
+
+feature ss01 {
+# automatic
+sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub Q by Q.ss01;
+sub R by R.ss01;
+sub S by S.ss01;
+sub T by T.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub d by d.ss01;
+sub g by g.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub q by q.ss01;
+sub r by r.ss01;
+sub t by t.ss01;
+sub y by y.ss01;
+sub z by z.ss01;
+} ss01;
+
+feature ss02 {
+# automatic
+sub A by A.ss02;
+sub B by B.ss02;
+sub C by C.ss02;
+sub D by D.ss02;
+sub E by E.ss02;
+sub F by F.ss02;
+sub G by G.ss02;
+sub H by H.ss02;
+sub I by I.ss02;
+sub J by J.ss02;
+sub K by K.ss02;
+sub L by L.ss02;
+sub M by M.ss02;
+sub O by O.ss02;
+sub P by P.ss02;
+sub Q by Q.ss02;
+sub R by R.ss02;
+sub S by S.ss02;
+sub T by T.ss02;
+sub a by a.ss02;
+sub b by b.ss02;
+sub d by d.ss02;
+sub g by g.ss02;
+sub i by i.ss02;
+sub j by j.ss02;
+sub k by k.ss02;
+sub m by m.ss02;
+sub n by n.ss02;
+sub o by o.ss02;
+sub p by p.ss02;
+sub q by q.ss02;
+sub r by r.ss02;
+sub t by t.ss02;
+sub y by y.ss02;
+sub z by z.ss02;
+} ss02;
+

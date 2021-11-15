@@ -4,17 +4,24 @@
           url('font/basteleur/fonts/webfonts/Basteleur-Bold.woff') format('woff');
   }
 
+@font-face {
+    font-family: 'anthony';
+    src:  url('font/anthony/fonts/web/Anthony.woff2') format('woff2'),
+          url('font/anthony/fonts/web/Anthony.woff') format('woff');
+  }
+
+
 body { 
     background-image: url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
     background-repeat: no-repeat;
-    background-position-y: 5%;
+    background-position-y: 2%;
 }
 
 .box1 {
-height: 20px;
+height: 0px;
 }
 .box2 {
-    height: 50px;
+    height: 77.5px;
     }
 
 .sticky {
@@ -103,7 +110,17 @@ a {
     width: fit-content;
     height: fit-content;
 
-    font-size: 80px;
+    font-size: 75px;
+    background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.seven {
+    font-family: "anthony";
+    top: 0;
+
+    font-size: 75px;
     background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

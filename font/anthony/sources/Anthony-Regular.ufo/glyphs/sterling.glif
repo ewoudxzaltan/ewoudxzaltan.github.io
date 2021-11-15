@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="2">
+	<advance width="527"/>
+	<unicode hex="00A3"/>
+	<outline>
+		<contour>
+			<point x="91" y="43" type="line"/>
+			<point x="51" y="61" type="line"/>
+			<point x="353" y="708" type="line"/>
+			<point x="393" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="177" y="378" type="line"/>
+			<point x="177" y="335" type="line"/>
+			<point x="16" y="335" type="line"/>
+			<point x="16" y="378" type="line"/>
+		</contour>
+		<contour>
+			<point x="491" y="378" type="line"/>
+			<point x="491" y="335" type="line"/>
+			<point x="249" y="335" type="line"/>
+			<point x="249" y="378" type="line"/>
+		</contour>
+		<contour>
+			<point x="359" y="0" type="line"/>
+			<point x="92" y="0" type="line"/>
+			<point x="92" y="43" type="line"/>
+			<point x="359" y="43" type="line"/>
+		</contour>
+		<contour>
+			<point x="388" y="10" type="line"/>
+			<point x="360" y="43" type="line"/>
+			<point x="469" y="135" type="line"/>
+			<point x="496" y="102" type="line"/>
+		</contour>
+	</outline>
+</glyph>

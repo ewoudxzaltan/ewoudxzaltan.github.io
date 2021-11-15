@@ -1,0 +1,1 @@
+Anthony is a trademark of Sun Young Oh (2021).
