@@ -1,17 +1,26 @@
+@font-face {
+    font-family: 'basteleur';
+    src:  url('font/basteleur/fonts/webfonts/Basteleur-Bold.woff2') format('woff2'),
+          url('font/basteleur/fonts/webfonts/Basteleur-Bold.woff') format('woff');
+  }
+
 body { 
-    background-image: url("images/ewoud_alpha.png"), url("images/pattern.png");
-    background-repeat: repeat-x, repeat;
+    background-image: url("images/ewoud_alpha.png"), linear-gradient(darkorchid, #ffc1ff);
+    background-repeat: no-repeat;
+}
+
+.sticky {
+position: sticky;
+position: -webkit-sticky;
+top: 0;
 }
 
 
 button {
     float: right;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     background-color: aquamarine;
     color: darkorchid;
-    font-size: 14px;
+    font-size: 8px;
     border-radius: 45%;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -27,7 +36,7 @@ p {
     position: sticky;
     top: 0;
     background-color: #ffc1ff;
-    font-size: 20px;
+    font-size: 200%;
     width: 220px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -78,6 +87,21 @@ a {
     color: rgb(207, 255, 119);
     background-color: darkorchid;
     padding-right: 3%;
+}
+
+.sixt {
+    font-family: "basteleur";
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    font-size: 500%;
+    background: -webkit-linear-gradient(darkorchid, #ffbc6f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 2%;
+    padding-right: 0;
 }
 
 footer {
