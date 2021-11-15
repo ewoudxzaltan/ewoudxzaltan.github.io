@@ -12,16 +12,18 @@
 
 
 body { 
-    background-image: url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
-    background-repeat: no-repeat;
-    background-position-y: 2%;
+    background-image: url("images/ewoud_alpha.png"), url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
+    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-blend-mode: difference, hue, difference;
+    background-position-y: 550px, 120px, 0px;
+    background-position-x: 150px, 0px, 0px;
 }
 
 .box1 {
 height: 0px;
 }
 .box2 {
-    height: 77.5px;
+    height: 250px;
     }
 
 .sticky {
@@ -49,8 +51,8 @@ p {
     top: 0;
     bottom: 0%;
     background-color: #ffc1ff;
-    font-size: 200%;
-    width: 270px;
+    font-size: 175%;
+    width: 250px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -59,34 +61,34 @@ a {
  }
 
 .first {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "anthony";
     text-align: center;
     color: aquamarine; 
     background-color: darkorchid;
     padding-left: 5%;
     padding-right: 30%;
-    font-size: 100%;
+    font-size: 150%;
 }
 .second {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "anthony";
     text-align: center;
     color:rgb(255, 253, 119); 
     background-color: deepskyblue;
     padding-left: 10%;
     padding-right: 2%;
-    font-size: 100%;
+    font-size: 150%;
 }
 .third {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "anthony";
     text-align: center;
     color: deepskyblue; 
     background-color: rgb(255, 253, 119);
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 100%;
+    font-size: 150%;
 }
 .fourth {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -94,15 +96,15 @@ a {
     color: rgb(255, 253, 119);
     background-color: darkorchid;
     padding-left: 3%;
-    font-size: 100%;
+    font-size: 150%;
 }
 .fifth {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "anthony";
     text-align: right;
     color: rgb(207, 255, 119);
     background-color: darkorchid;
     padding-right: 3%;
-    font-size: 100%;
+    font-size: 150%;
 }
 .sixt {
     font-family: "basteleur";
@@ -127,11 +129,10 @@ a {
 }
 
 footer {
-    font-family: "Lucida Console", "Courier New", monospace;
-    background-color: rgb(207, 255, 119);
-    font-size: 13px;
+    font-family: "anthony";
+    font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
