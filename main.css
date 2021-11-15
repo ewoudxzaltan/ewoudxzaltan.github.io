@@ -13,8 +13,9 @@
 
 body { 
     background-image: url("images/ewoud_alpha.png"), url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
-    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-repeat: repeat-x, no-repeat, repeat-x;
     background-blend-mode: difference, hue, difference;
+    background-size: auto;
     background-position-y: 550px, 120px, 0px;
     background-position-x: 150px, 0px, 0px;
 }
@@ -109,10 +110,7 @@ a {
 .sixt {
     font-family: "basteleur";
 
-    width: fit-content;
-    height: fit-content;
-
-    font-size: 75px;
+    font-size: 500%;
     background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,9 +128,9 @@ a {
 
 footer {
     font-family: "anthony";
-    font-size: 20px;
+    font-size: 155px;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 
