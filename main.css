@@ -1,31 +1,16 @@
-@font-face {
-    font-family: 'basteleur';
-    src:  url('font/basteleur/fonts/webfonts/Basteleur-Bold.woff2') format('woff2'),
-          url('font/basteleur/fonts/webfonts/Basteleur-Bold.woff') format('woff');
-  }
-
-@font-face {
-    font-family: 'anthony';
-    src:  url('font/anthony/fonts/web/Anthony.woff2') format('woff2'),
-          url('font/anthony/fonts/web/Anthony.woff') format('woff');
-  }
-
 
 body { 
-    background-image: url("images/ewoud_alpha.png"), url("images/ewoud_alpha.png"), linear-gradient(rgb(138, 0, 207), #faecfa);
-    background-repeat: repeat-x, no-repeat, repeat-x;
-    background-blend-mode: difference, hue, difference;
+    background-image: url("images/crt-nose1.png");
+    background-repeat: repeat;
+    background-blend-mode: difference;
     background-size: auto;
     background-position-y: 550px, 120px, 0px;
     background-position-x: 150px, 0px, 0px;
 }
 
 .box1 {
-height: 0px;
+padding-bottom: 40%;
 }
-.box2 {
-    height: 250px;
-    }
 
 .sticky {
 position: sticky;
@@ -33,104 +18,39 @@ position: -webkit-sticky;
 top: 0;
 }
 
-button {
-    float: right;
-    background-color: aquamarine;
-    color: darkorchid;
-    font-size: 12px;
-    border-radius: 45%;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-.title {
-    font-size: 75px;
-    text-align: center;
-    color: aquamarine;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
 p {
     top: 0;
     bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #ffc1ff;
-    font-size: 175%;
-    width: 250px;
+    font-size: 150%;
+    width: 200px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-a {
-    text-decoration:none;
- }
-
-.first {
-    font-family: "anthony";
-    text-align: center;
-    color: aquamarine; 
-    background-color: darkorchid;
-    padding-left: 5%;
-    padding-right: 30%;
-    font-size: 150%;
-}
-.second {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    font-family: "anthony";
-    text-align: center;
-    color:rgb(255, 253, 119); 
-    background-color: deepskyblue;
-    padding-left: 10%;
-    padding-right: 2%;
-    font-size: 150%;
-}
-.third {
-    font-family: "anthony";
-    text-align: center;
-    color: deepskyblue; 
-    background-color: rgb(255, 253, 119);
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 150%;
-}
-.fourth {
-    font-family: "Lucida Console", "Courier New", monospace;
+.text {
+    font-family: "Courier New", monospace;
     text-align: left;
-    color: rgb(255, 253, 119);
-    background-color: darkorchid;
-    padding-left: 3%;
-    font-size: 150%;
-}
-.fifth {
-    font-family: "anthony";
-    text-align: right;
-    color: rgb(207, 255, 119);
-    background-color: darkorchid;
-    padding-right: 3%;
-    font-size: 150%;
-}
-.sixt {
-    font-family: "basteleur";
-
-    font-size: 500%;
-    background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
+    background-color: #ffc1ff;
+    font-size: 120%;
+    padding: 0%;
+    align-items: center;
 }
 
-.seven {
-    font-family: "anthony";
-    top: 0;
-
-    font-size: 75px;
-    background: -webkit-linear-gradient(rgb(202, 97, 255), #ffbc6f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.center {
+  text-align: center;
 }
 
-footer {
-    font-family: "anthony";
-    font-size: 155px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 100px;
-}
-
+.column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
