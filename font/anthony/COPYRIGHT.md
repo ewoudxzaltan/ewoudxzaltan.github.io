@@ -1,1 +1,0 @@
-Copyright (c) 2021, Sun Young Oh <hello@sunyoungoh.com>
