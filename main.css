@@ -14,7 +14,6 @@ position: sticky;
 z-index: 1;
 position: -webkit-sticky;
 top: 0;
-padding-bottom: 38%;
 }
 
 p {
@@ -36,6 +35,12 @@ p {
     font-size: 120%;
     padding: 0%;
     align-items: center;
+    padding: 1em;
+    margin: 3em 0;
+}
+.spacer {
+  padding: 200px 0;
+  margin: 0;
 }
 
 .center {
@@ -57,12 +62,6 @@ p {
     float: left;
     width: 33%;
   }
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
   table {
     margin-left: auto;
@@ -79,7 +78,9 @@ p {
     text-align: left; 
     border: 1px solid #000000;
   }
-
+.smallText {
+  font-size:0.7em;
+}
   table, th {
     border-top: 1px solid #000000; 
     border-right: 1px solid #000000; 
@@ -87,9 +88,6 @@ p {
     overflow: hidden; padding: 2px 3px 2px 3px; 
     vertical-align: bottom; 
     background-color: #ffc1ff; 
-    font-weight: bold;
+    font-weight: bolder;
   }
 
-    #hueSlider {
-  display: none;
-}
