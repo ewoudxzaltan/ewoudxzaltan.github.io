@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - ewoud van eetvelde</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="nav-button">News</a>
+    <a href="about.html" class="nav-button">About</a>
+    <a href="music.html" class="nav-button">Music &#x2764;</a>
+    <a href="dromentuin.html" class="nav-button">de Dromentuin</a>
+    <div class="hamburger" onclick="toggleMenu()">&#x2630;</div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">News</a>
+    <a href="about.html">About</a>
+    <a href="music.html">Music</a>
+    <a href="dromentuin.html">de Dromentuin</a>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <div class="fade-wrapper">
+      <div class="content about-layout">
+  <div class="text">
+    <p> <strong>ewoud van eetvelde</strong> is an electroacoustic composer, installation artist and professional guitarist based in Brussels.
+        With a focus on the connection of sound and the body, his practice spans across developing instruments, performing and composing music and poetry, 
+        working in his multi-speaker studio and engaging in transdisciplinary collaborations including theater and VR. 
+    </p>
+    <br>
+    <p>
+        ewoud is the leader of the electroacoustic jazz trio <em>Zap Zaltan</em> and he performs narrated solo concerts with his multi-speaker audiovisual installations under the moniker <em>de Dromentuin</em>. He graduated as a Nordic jazz Master on guitar in Helsinki, Stockholm and Aarhus, Master in Music Education and is founder of <em>Studio Zaltan</em> as a platform for his diverse artistic research. He was a resident in PAS (Petersburg Art Institute) Berlin, NOTAM (Norwegian Centre for Technology, Art and Music) Oslo and Werkplaats Walter Brussels. <br> Together with MUS-E, Ewoud collaborates with schools and children in the Belgian capital to make and present audiovisual work. 
+    </p>
+    <br>
+    <p>       
+        Currently he is under the mentorship of Annette Vande Gorne for acousmatic music composition. 
+        His compositions were selected by the electroacoustic Boem festival 2025 in Ghent and for Paysages Composés 2025 in Grenoble. 
+    </p>
+    <br><br>
+    contact >> ewoudve{dot}gmail{dot}com <br> <a href="/docs/CV Ewoud _250826.pdf"> getCurriculumVitae&#x1F4DC;</a>
+  </div>
+  <img class="about-image" src="images/about.png" alt="About image">
+</div>
+
+    </div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+
+    // Page transition fade
+    document.querySelectorAll('.nav-button, .mobile-menu a').forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        const wrapper = document.querySelector('.fade-wrapper');
+        if(wrapper){
+          wrapper.style.opacity = 0; // fade out current page
+          setTimeout(() => {
+            window.location.href = href; // navigate after fade out
+          }, 500);
+        } else {
+          window.location.href = href;
+        }
+      });
+    });
+
+    // Fade in content on page load
+    window.addEventListener('load', () => {
+      const wrapper = document.querySelector('.fade-wrapper');
+      if(wrapper){
+        wrapper.style.transition = 'opacity 1s ease';
+        wrapper.style.opacity = 1;
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music - ewoud van eetvelde</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="nav-button">News</a>
+    <a href="about.html" class="nav-button">About</a>
+    <a href="music.html" class="nav-button">Music &#x2764;</a>
+    <a href="dromentuin.html" class="nav-button">de Dromentuin</a>
+    <div class="hamburger" onclick="toggleMenu()">&#x2630;</div>
+     
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">News</a>
+    <a href="about.html">About</a>
+    <a href="music.html">Music</a>
+    <a href="dromentuin.html">de Dromentuin</a>
+
+  </div>
+
+
+  <!-- Main Content -->
+  <main>
+  <div class="fade-wrapper">
+    <div class="content">
+        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=4113947910/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless></iframe>
+        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2263251850/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless></iframe>
+        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=4217427161/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xFgUB8wNffw?si=JMxyPRVNp0MgBozF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EKfpq1vNIWY?si=m6H9dWuvAgbdgyq6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="auto" height="auto" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1175528467&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe width="auto%" height="auto" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2161927758&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    </div>
+    </main>
+
+  <script>
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  // Page transition
+  document.querySelectorAll('.nav-button, .mobile-menu a').forEach(link => {
+    link.addEventListener('click', function(e){
+      e.preventDefault();
+      const href = this.getAttribute('href');
+      const wrapper = document.querySelector('.fade-wrapper');
+      if(wrapper){
+        wrapper.style.opacity = 0; // fade out current page
+        setTimeout(() => {
+          window.location.href = href; // navigate after fade out
+        }, 500);
+      } else {
+        window.location.href = href;
+      }
+    });
+  });
+
+  // Fade in content on page load
+  window.addEventListener('load', () => {
+    const wrapper = document.querySelector('.fade-wrapper');
+    if(wrapper){
+      wrapper.style.transition = 'opacity 1s ease';
+      wrapper.style.opacity = 1;
+    }
+  });
+</script>
+
+</body>
+</html>
