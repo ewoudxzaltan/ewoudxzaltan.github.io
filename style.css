@@ -215,9 +215,25 @@ main {
   left: 10px;
   width: 2em;
   height: auto;
-  background-color: darkorange;
+  background-color: orange;
   border-radius: 30%;
 }
+
+/*
+.instagram-feed-container {
+    flex-direction: r;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 75vh; 
+}
+.instagram-feed-container iframe {
+  border: 0;
+  width: 350px;
+  height: 470px;
+}
+*/
 
 /* Page Titles */
 .page-title {
