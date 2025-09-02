@@ -350,14 +350,14 @@ main {
 /* About page layout */
 .about-layout {
   display: flex;
-  gap: 2rem;
+  gap: 0rem;
   align-items: flex-start;
   justify-content: center;
   position: relative;
 }
 
 .about-layout .text {
-  flex: 1 1 100px;
+  flex: 2;
   z-index: 1; /* keep text on top */
   background: #ffc1ff; /* fully opaque pink */
   padding: 2rem;
@@ -365,11 +365,8 @@ main {
 }
 
 .about-layout .about-image {
-  flex: 1 1 300px;
   max-width: 100%;
   height: auto;
-  margin-left: -5%;  /* image overlaps text box */
-  margin-top: -5%;   /* slight top overlap */
   z-index: 0;        /* image behind text box */
 }
 
@@ -442,4 +439,30 @@ main {
   .image-container {
     grid-template-columns: 1fr; }
 
+}
+
+.language-selector {
+  margin-bottom: 0em;
+}
+
+.lang-button {
+  background: #ffc1ff;
+  border: none;
+  font-family: var(--lettertype);
+  font-size: 1em;
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  padding: 1rem 2rem ;
+  border-radius: 75%;
+}
+
+.lang-button.active {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.lang-button:hover {
+  background: white;
 }
